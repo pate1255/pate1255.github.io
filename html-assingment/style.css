@@ -1,0 +1,35 @@
+body {
+    font-family:"Arial", sans-serif; font-size: 18px;
+}
+
+header , footer {
+    background-color: coral;
+}
+
+.site-title {
+    color: yellow;
+}
+
+#my-image {
+    box-shadow:0px 0px 2px 1px black;
+}
+
+ul>li {
+    list-style-type: square;
+}
+
+ul :nth-child(odd) {
+    background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    background-color: orange; border-style: dotted;
+}
+
+a:hover {
+    background-color: greenyellow;
+}
