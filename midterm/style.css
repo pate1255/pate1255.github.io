@@ -1,0 +1,106 @@
+/* code for displaying the header image and take the available width of the screen */
+.navbar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /*100% to cover the whole width of the screen. */
+    position: relative; /*relative position assigned for referring other elements to display around the image. */
+}
+
+/* code for styling the main heading on the top of the header image */
+h1{
+    width: 100%;
+    top:25%;
+    position: absolute; 
+    /*absolute position used to display the element around the relative parent i.e.headerimage */
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* code for creating navigation bar */
+.nav {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+/* code for styling navigation bar elements */
+.nav div{
+    display: inline;
+    font-size: 15pt;
+    padding: 5px 164px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    border-right: 1px solid black;
+    color: black;
+}
+
+/* code for removing the border-right style from the last element. */
+.nav :last-child{
+    border-right: none;
+    /* removes the border-right from the last element i.e. contact in navigation bar. */
+}
+
+/* code for displaying the body image and wrapping the content around the image. */
+.content img{
+    width: 200px;
+    float: left;
+    /* using float:left will display the body content on the left side wrapping the image. */
+    padding: 10px;
+}
+
+/* code for styling body content */
+article{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(195, 113, 37);
+}
+
+/* code for styling contact section */
+.contact{
+    width: 1220px;
+    height: 500px;
+    border: 5px solid black;
+    /* creates a box around the contact information */
+    padding-left: 10px;
+}
+
+/* code for increasing the font size of the paragraph content */
+.contact p{
+    font-size: larger;
+}
+
+/* code for styling the button */
+button{
+    background-color: rgb(195, 113, 37);
+    color: black;
+    border: 2px solid black;
+    width: 60px;
+    height: 40px;
+    font-size: small;
+}
+
+/* code for creating space between the button and the select section */
+.select {
+    padding-bottom: 10px;
+}
+
+/* code for displaying the copyright content on right side on the bottom of the page */
+footer p{
+    background-color: rgb(195, 113, 37);
+    margin: 0px;
+    /* removes the white space between the footer and the article sections.*/
+    text-align: right;
+    padding: 10px;
+    padding-right: 20px;
+    
+}
+
+/* code for aligning the facts in a proper line and space with the page. */
+ul{
+    padding-left: 20px;
+}
+
+/* code for alignint facts heading in a proper line and space with the page */
+.Facts h3{
+    padding-left: 3px;
+}
