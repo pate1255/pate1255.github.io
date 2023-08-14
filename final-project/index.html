@@ -3,164 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <title>Three Star Media</title>
     
 </head>
 <body>
-    <!-- creating navigation bar -->
-    <header>
-        <div class="navbar">
-            <!-- displaying logo -->
-            <img src="./images/logo.png" alt="logo" width="100" height="100">
-            <div class="bgblock"></div>
-            <!-- creating navigation links -->
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <!-- code for creating search bar -->
-                <input type="text" placeholder="Search">
-            </nav>
-        </div>
-    </header>
+    <div class="container">
+        <!-- creating navigation bar -->
+        <header>
+            <div class="navbar">
+                <!-- displaying logo -->
+                <div class="navlogo"><img src="./images/logo.png" alt="logo"></div>
+                
+                <!-- creating navigation links -->
+                <!-- <div class="nav-list"> -->
+                    <nav class="nav-list">
+                        <ul class="pages">
+                            <div><li id="home"><a href="#">Home</a></li></div>
+                            <div><li><a href="#">About Us</a></li></div>
+                            <div><li><a href="#">Services</a></li></div>
+                            <div><li><a href="#">Team</a></li></div>
+                            <div><li><a href="#">Contact</a></li></div>
+                        </ul>
+                        <!-- code for creating search bar -->
+                        <div class="search">
+                            <input type="text" placeholder="Search">
+                            <img src="./images/search-image.png" alt="search-icon">
+                        </div>
+                    </nav>
+                <!-- </div> -->
+            </div>
+        </header>
 
-    <section>
-        <!-- code for creating introduction -->
-        <div class="Intro">
-            <!-- introduction image -->
-            <img src="./images/main-banner.jpg" alt="homepg" width="400" height="300">
-            <h1>Welcome to the world of creativity</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia rerum enim eos nulla aspernatur atque molestias odio, quas quaerat soluta, architecto necessitatibus numquam nihil perspiciatis explicabo, laboriosam dolorem nam!</p>
-            <button>connect with us!</button>
-        </div>
-
-        <!-- code for creating about us section -->
-        <div class="about-us">
-            <img src="./images/about-us.jpg" alt="about us" width="400" height="300" >
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam doloremque minima veritatis laborum! Aperiam et corporis voluptate perferendis maiores optio, vel repellat sed esse accusamus ad atque nam explicabo suscipit?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam maxime voluptas dicta aliquam ullam. Ipsum quaerat obcaecati ex consequatur veniam, doloribus sed rerum quo, est eum, quas quae omnis hic.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure sit doloribus labore! Vero, praesentium cumque et aliquid temporibus alias illo veniam in reiciendis quidem quia soluta blanditiis beatae enim.</p>
-        </div>
-
-        <!-- code for creating services section -->
-        <div class="services">
-            <h1>Our Services</h1>
-            <!-- service 1 -->
-            <div class="s1">
-                <img src="./images/digital.jpg" alt="classes" width="400" height="300">
-                <h2>Digital Transformation</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit earum esse voluptas repellat, id delectus nobis dolore perspiciatis sequi ad saepe nesciunt ipsa cumque vitae itaque enim sit possimus voluptatum.</p>
-                <button>Checkout Plan</button>
-            </div>
-            
-            <!-- service 2 -->
-            <div class="s2">
-                <img src="./images/marketing.jpg" alt="custom-order" width="400" height="300">
-                <h2>Marketing</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa possimus ipsam laudantium earum iure repellat pariatur quia nobis similique, nihil necessitatibus incidunt perferendis sunt molestias, eligendi eos quo amet.</p>
-                <button>Checkout Plan</button>
-            </div>
-            
-            <!-- service 3 -->
-            <div class="s3">
-                <img src="./images/video.jpg" alt="crafted" width="400" height="300">
-                <h2>Video Production</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas a amet temporibus labore veniam hic dolore, aut officiis, cumque et voluptates, debitis tempora atque! Obcaecati possimus esse odit vitae adipisci.</p>
-                <button>Checkout Plan</button>
-            </div>
-            
-            <!-- service 4 -->
-            <div class="s4">
-                <img src="./images/web.jpg" alt="print" width="400" height="300">
-                <h2>Web Development</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias autem rem libero similique sit, consequuntur soluta est inventore facilis quaerat dolorum quae excepturi repellendus natus sed nulla eius dolores quibusdam!</p>
-                <button>Checkout Plan</button>
-            </div>
-            
-            <!-- services 5 -->
-            <div class="s5">
-                <img src="./images/print.jpg" alt="paint" width="400" height="300">
-                <h2>Print</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias autem rem libero similique sit, consequuntur soluta est inventore facilis quaerat dolorum quae excepturi repellendus natus sed nulla eius dolores quibusdam!</p>
-                <button>Checkout Plan</button>
-            </div>
-        </div>
-        
-        <!-- code for creating vision section. -->
-        <div class="vision">
-            <img src="./images/vision.jpg" alt="vision" width="400" height="300" >
-            <h2>Our Vision</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis rerum consequuntur molestiae illo! Consectetur ducimus, ipsa totam a aperiam inventore optio adipisci hic facere autem quia necessitatibus, quod consequatur minus?</p>
-            <button>Learn More</button>
-        </div>
-        
-        <!-- code for creating team members section. -->
-        <div class="team">
-            <h1>Our Team</h1>
-            <div class="owner">
-                <img src="./images/john.jpg" alt="owner" width="400" height="300">
-                <h2>John Doe</h2>
-                <h4>CEO and Co-owner</h4>
-                <div class="line"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, et veniam aspernatur ex officiis praesentium qui provident voluptates sunt sit eligendi, ipsa reprehenderit quibusdam quas consectetur ab blanditiis quisquam cum!</p>
+        <section>
+            <!-- code for creating introduction -->
+            <div class="intro">
+                <!-- introduction image -->
+                <div class="intro-image"><img src="./images/main-banner.jpg" alt="homepg"></div>
+                <div class="intro-content">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia rerum enim eos nulla aspernatur atque molestias odio, quas quaerat soluta, architecto necessitatibus numquam nihil perspiciatis explicabo, laboriosam dolorem nam!</p>
+                    <button>Connect with us <img src="./images/arrow-img.png"  class="arrow"></button>
+                </div>
             </div>
 
-            <div class="deputy">
-                <img src="./images/bob.jpg" alt="deputy" width="400" height="300">
-                <h2>Bob Rite</h2>
-                <h4>CFO and Co-owner</h4>
-                <div class="line2"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate deserunt aliquid repudiandae ut ipsam perspiciatis possimus. Fugiat excepturi sed recusandae eligendi odit itaque commodi eius, officiis deleniti obcaecati quis.</p>
+            <!-- code for creating about us section -->
+            <div class="about-us">
+                <div class="about-us-img"><img src="./images/about-us.jpg" alt="about us"></div>
+                <div class="about-us-content">
+                    <h1>About Us</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam doloremque minima veritatis laborum! Aperiam et corporis voluptate perferendis maiores optio, vel repellat sed esse accusamus ad atque nam explicabo suscipit?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure sit doloribus labore! Vero, praesentium cumque et aliquid temporibus alias illo veniam in reiciendis quidem quia soluta blanditiis beatae enim.</p>
+                </div>
             </div>
-        </div>
+
+            <!-- code for creating services section -->
+            <div class="services">
+                <div class="service-heading"><h1>Our Services</h1></div>
+                <!-- service 1 -->
+                <div class="service-grid">
+                    <div class="s1">
+                        <img src="./images/digital.jpg" alt="classes">
+                        <h2>Digital Transformation</h2>
+                        <div class="s1-content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit earum esse voluptas repellat, id delectus nobis dolore perspiciatis sequi ad saepe nesciunt ipsa cumque vitae itaque enim sit possimus voluptatum.</p>
+                            <button>Digital Plan <img src="./images/arrow-white-img.png" class="white-arrow"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- service 2 -->
+                    <div class="s2">
+                        <img src="./images/marketing.jpg" alt="custom-order">
+                        <h2>Marketing</h2>
+                        <div class="s2-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa possimus ipsam laudantium earum iure repellat pariatur quia nobis similique, nihil necessitatibus incidunt perferendis sunt molestias, eligendi eos quo amet.</p>
+                            <button>Marketing Plan <img src="./images/arrow-white-img.png" class="white-arrow"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- service 3 -->
+                    <div class="s3">
+                        <img src="./images/video.jpg" alt="crafted">
+                        <h2>Video Production</h2>
+                        <div class="s3-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas a amet temporibus labore veniam hic dolore, aut officiis, cumque et voluptates, debitis tempora atque! Obcaecati possimus esse odit vitae adipisci.</p>
+                            <button>Video Plan <img src="./images/arrow-white-img.png" class="white-arrow"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- service 4 -->
+                    <div class="s4">
+                        <img src="./images/web.jpg" alt="print">
+                        <h2>Web Development</h2>
+                        <div class="s4-content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias autem rem libero similique sit, consequuntur soluta est inventore facilis quaerat dolorum quae excepturi repellendus natus sed nulla eius dolores quibusdam!</p>
+                            <button>Web Plan <img src="./images/arrow-white-img.png" class="white-arrow"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- services 5 -->
+                    <div class="s5">
+                        <img src="./images/print.jpg" alt="paint">
+                        <h2>Print</h2>
+                        <div class="s5-content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias autem rem libero similique sit, consequuntur soluta est inventore facilis quaerat dolorum quae excepturi repellendus natus sed nulla eius dolores quibusdam!</p>
+                            <button>Print Plan <img src="./images/arrow-white-img.png" class="white-arrow"></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <!-- code for creating vision section. -->
+            <div class="vision">
+                <!-- <img src="./images/vision.jpg" alt="vision" width="400" height="300"> -->
+                <div class="vision-grid">
+                    <h2>Our Vision</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis rerum consequuntur molestiae illo! Consectetur ducimus, ipsa totam a aperiam inventore optio adipisci hic facere autem quia necessitatibus, quod consequatur minus?</p>
+                    <button>Learn More<img src="./images/arrow-white-img.png" class="white-arrow"></button>
+                </div>
+            </div>
+            
+            <!-- code for creating team members section. -->
+            <div class="team">
+                <div class="team-heading"><h1>Our Team</h1></div>
+                <div class="owner">
+                    <div class="owner-img"><img src="./images/john.jpg" alt="owner"></div>
+                    <div class="owner-content">
+                        <h2>John Doe</h2>
+                        <h4>CEO and Co-owner</h4>
+                        <div class="line"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, et veniam aspernatur ex officiis praesentium qui provident voluptates sunt sit eligendi, ipsa reprehenderit quibusdam quas consectetur ab blanditiis quisquam cum!</p>
+                    </div>
+                </div>
+
+                <div class="deputy">
+                    <div class="deputy-img"><img src="./images/bob.jpg" alt="deputy"></div>
+                    <div class="deputy-content">
+                        <h2>Bob Rite</h2>
+                        <h4>CFO and Co-owner</h4>
+                        <div class="line2"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate deserunt aliquid repudiandae ut ipsam perspiciatis possimus. Fugiat excepturi sed recusandae eligendi odit itaque commodi eius, officiis deleniti obcaecati quis.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- code for creating contact section. -->
+            <div class="grid-3">
+                <div class="contact-heading"><h1>Contact Us</h1></div>
+                <div class="contact">
+                    <h2>Send Us Message</h2>
+                    <form>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name" style="width: 100%;"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email" style="width: 100%;"><br>
+                        <label for="message">Message:</label><br>
+                        <input type="text" id="message" name="message" style="height: 180px; width: 100%;"><br>
+                        <button>Send</button>
+                    </form>
+                </div>
+                
+                <!-- code for creating table for store availability. -->
+                <div class="hour-table">
+                    <h1>Hours of store open</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Days</td>
+                                <td>Hours</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>Monday-Friday</td>
+                                <td>9AM-6AM</td>
+                            </tr>
+
+                            <tr>
+                                <td>Saturday-Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- code for displaying location for the store. -->
+                <div class="location">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22432.752889953084!2d-75.79604566097262!3d45.34691247797613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07191b4a27ad%3A0xc49d2400f64d7095!2sAlgonquin%20College%20-%20Building%20M!5e0!3m2!1sen!2sca!4v1690913500127!5m2!1sen!2sca" width="100%" height="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
         
-        <!-- code for creating contact section. -->
-        <div class="contact">
-            <h1>Contact Us</h1>
-            <h2>Send Us Message</h2>
-            <form>
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-                <input type="text" id="message" name="message"><br>
-                <button>Send</button>
-            </form>
-        </div>
-        
-        <!-- code for creating table for store availability. -->
-        <div class="table">
-            <h1>Hours of store open</h1>
-            <table>
-                <tr>
-                    <th>Days</th>
-                    <th>Monday-Friday</th>
-                    <th>Saturday-Sunday</th>
-                </tr>
-                <tr>
-                    <td>Hours</td>
-                    <td>9AM-6AM</td>
-                    <td>closed</td>
-                </tr>
-            </table>
-        </div>
-        
-        <!-- code for displaying location for the store. -->
-        <div class="location">
-            <h1>Location</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22432.752889953084!2d-75.79604566097262!3d45.34691247797613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07191b4a27ad%3A0xc49d2400f64d7095!2sAlgonquin%20College%20-%20Building%20M!5e0!3m2!1sen!2sca!4v1690913500127!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-    
-    <!-- code for copyright and citation. -->
-    <footer>
-        ©Copyright Three Star Media, 2020 <br>
-        all images are taken from <a href="https://unsplash.com/">Unsplash</a>
-    </footer>
+        <!-- code for copyright and citation. -->
+        <footer>
+            <div class="footer-content">
+                <div class="copyright">©Copyright Three Star Media, 2020 </div><br>
+                <div class="citation">All images are taken from <a href="https://unsplash.com/">Unsplash</a></div>
+            </div>
+      </footer>
+    </div>
 </body>
 </html>

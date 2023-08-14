@@ -1,1 +1,0 @@
-# pate1255.github.io

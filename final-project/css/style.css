@@ -1,0 +1,1101 @@
+/* code for mobile approach */
+/* code for designing navigation bar*/
+header{
+    background-color:#222;
+    width:100%;
+    margin: auto 0;
+}
+
+/* code for proper spacing for navigation bar */
+.navbar{
+    padding: 10px;
+}
+
+/* code for displaying logo and background color */
+.navlogo{
+    display: block;
+    background-color: #c78c06;
+}
+
+/* code for arranging elements in search section (i.e searchbar and search icon). */
+.search{
+    display: flex;
+}
+
+/* code for specifying width and height of search bar. */
+.search input{
+    width: 100%;
+    height: 30px;
+}
+
+/* code for specifying the size of icon. */
+.search img{
+    width: 35px;
+}
+
+/* code for proper spacing of search section.  */
+.search{
+    padding: 10px 5px 5px 5px ;
+}
+
+/* code for styling and spacing navigating link section in sequence  */
+ul li{
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+/* code for styling the navigation links  */
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #c78c06 ;
+}
+
+/* code for styling home link with the given sample. */
+#home{
+    background-color: #c78c06;
+    padding: 20px 10px 10px 10px;
+    color: #222;
+}
+
+/* code for changing the font color of home link */
+#home a{
+    color: #222;
+}
+
+/* used position to place the elements in introduction section */
+.intro{
+    position: relative;
+    width: 100%;
+}
+
+/* code for placing introduction image on background in introduction section. */
+.intro img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+/* code for displaying intoduction content on the top of the image in introduction section. */
+.intro-content{
+    position:absolute;
+    top:10%;
+    left: 0%;
+    background-color:rgba(0,0,0,0.6);
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+/* code for styling introduction heading */
+.intro-content h1{
+    font-size:50px;
+    font-weight: 700;
+    padding:0px;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+/* code for placing and spacing paragraph of introduction section */
+.intro-content p{
+    margin-right: 10px;
+    font-size: 12px;
+    padding:10px 10px 10px 10px;
+    line-height: 18px;
+}
+
+/* code for styling and spacing of about-us section */
+.about-us{
+    background-color: #ffe6ac;  
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* code for specifying the image of about-us section. */
+.about-us img{
+    width:100%;
+}
+
+/* code for styling and placing the heading of about-us section.  */
+.about-us h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size: 40px;
+    padding: 10px 10px;
+}
+
+/* code for styling and spacing the paragraph of about-us section  */
+.about-us p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 10px 15px;
+}
+
+/* code for spacing the service section */
+.services{
+    margin: 15px;
+}
+
+/* code for styling and spacing main-heading in service section. */
+.services h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 20px 10px 10px 5px ;
+}
+
+/* code for specifying the image size in service 1 section */
+.s1 img{
+    width: 100%;
+}
+
+/* code for styling and spacing service 1 section */
+.s1{
+    background-color: #ffe6ac;
+    width: 100%;
+    padding-bottom: 5px;
+   
+}
+
+/* code for styling and spacing heading of service 1 */
+.s1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding:20px 10px 10px 5px;
+    margin-left: 5px;
+}
+
+/* code for styling and spacing paragraph of service 1 */
+.s1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 5px; 
+}
+
+/* code for specifying the image size in service 2 section */
+.s2 img{
+    width: 100%;
+}
+
+/* code for styling and spacing service 2 section */
+.s2{
+    background-color: #ffe6ac;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+/* code for styling and spacing heading of service 2 */
+.s2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding:10px;
+    margin-top: 15px;
+}
+
+/* code for styling and spacing paragraph of service 2 */
+.s2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px; 
+    margin-bottom: 5px;
+}
+
+/* code for specifying the image size in service 3 section */
+.s3 img{
+    width: 100%;
+}
+
+/* code for styling and spacing heading of service 3 */
+.s3 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding:10px
+}
+
+/* code for styling and spacing paragraph of service 3 */
+.s3 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* code for styling and spacing service 3 section */
+.s3{
+    background-color: #ffe6ac;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+/* code for specifying the image size in service 4 section */
+.s4 img{
+    width: 100%;
+}
+
+/* code for styling and spacing heading of service 4 */
+.s4 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+/* code for styling and spacing paragraph of service 4 */
+.s4 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+   
+}
+
+/* code for styling and spacing service 3 section */
+.s4{
+    background-color: #ffe6ac;
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+
+/* code for specifying the image size in service 5 section */
+.s5 img{
+    width: 100%;
+
+}
+
+/* code for styling and spacing heading of service 5 */
+.s5 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+   
+}
+
+/* code for styling and spacing paragraph of service 4 */
+.s5 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+
+/* code for styling and spacing of service 5 */
+.s5{
+    background-color: #ffe6ac;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+/* code for displaying image in vision section */
+.vision{
+    background-image: url(/images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 25px;
+}
+
+/* code for styling and spacing heading of vision section */
+.vision h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:white;
+    font-size: 40px;
+    padding: 40px 10px 20px 10px;
+    top: 50%;
+    left: 0;
+}
+
+/* code for styling and spacing the paragraph of vision section. */
+.vision p{
+    font-family: 'Open Sans', sans-serif;
+    top: 100%;
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+    color:white;
+}
+
+/* code for spacing the team section */
+.team{
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
+/*styling and spacing the main heading of team section */
+.team h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+/* specifying the image size of team section  */
+.team img{
+    width: 100%;
+    height: 400px;
+}
+
+/* styling and spacing the sub heading of team section */
+.team h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+/* styling and spacing the sub heading of the team section */
+.team h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* styling and spacing the paragraph of the team section */
+.team p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* styling and spacing individually in the team section i.e owner*/
+.owner{
+    background-color: #ffe6ac;
+    width: 100%;
+}
+
+/* styling and spacing individually in the team section i.e deputy*/
+.deputy{
+    background-color: #ffe6ac;
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* specifying the image size of deputy */
+.deputy img{
+    width: 100%;
+}
+
+/* styling the font and spacing the contact us section */
+.contact{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+/* spacing the elements of contact us section */
+form{
+    margin-top: 10px;
+}
+
+/* specifying the size of the contact boxes in contact us section */
+form input{
+    width: 100%;
+}
+
+/* styling and spacing the heading of contact us section */
+.contact-heading h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-left: 18px;
+}
+
+/* styling the contact button */
+.contact button{
+    background-color: #222;
+    color: #c78c06;
+    border: none;
+    padding: 6px 5px 6px 5px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+/* styling and spacing the heading the contact section */
+.contact h2{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* styling and spacing the heading of hour table section */
+.hour-table h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* styling and spacing the table section */
+table{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    padding: 20px;
+}
+
+/* spacing the table elements */
+.hour-table{
+    padding:10px
+}
+
+/* styling the elements of the table*/
+thead{
+    background-color:#ffe6ac;
+    text-align: center;
+}
+
+/* styling the elements of the table */
+td{
+    border: solid #222 1px;
+    padding: 15px;
+    
+}
+
+/* styling the elements of the table */
+th{
+    border: solid #222 1px;
+    background-color:#ffe6ac;
+    text-align: center;
+}
+
+/* styling and spacing the heading the location section */
+.location h1{ 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+/* specifying the size of the display of the location  */
+.location iframe{
+    height: 450px;
+}
+
+/* spacing the location section */
+.location{
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+/* styling the footer section */
+footer{
+    background-color: #222;
+    width: 100%;
+    height: 100px;
+    color: #c78c06;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* spacing the copyright content */
+.copyright{
+    padding: 30px 20px 0px 20px;
+}
+
+/* spacing the citation content */
+.citation{
+    padding: 0px 20px 20px 20px;
+}
+
+/* underlining the source page word */
+.citation a{
+    text-decoration: underline;
+}
+
+/* spacing and sizing every section in service section */
+.s1,.s2,.s3,.s4{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* styling the lines in both of team description */
+.line,.line2{
+    background-color: #c78c06;
+    height: 2px;
+}
+
+/* spacing the content in both team members section */
+.owner-content,.deputy-content{
+    padding: 12px;
+}
+
+/* styling the introduction section button */
+.intro button{
+    background-color: #c78c06;
+    color: #222;
+    padding: 20px 30px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* displaying the arrow in the button */
+button .arrow{
+    width: 20px;
+    margin-left: 5px;
+}
+
+/* styling the service section button */
+.services button{
+    background-color: #222;
+    color: white;
+    padding: 30px 40px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+/* displaying the arrow in the button */
+button .white-arrow{
+    width: 15px;
+    margin-left: 5px;
+}
+
+/* styling the vision section button */
+.vision button{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 30px 40px;
+    border: solid #c78c06 1px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* media query for preventing overlapping of introduction section in small screen  */
+@media screen and (max-width:430px){
+    .intro-content{
+        top:10%;
+        height:12em;
+    }
+
+    .intro-content h1{
+        font-size: 10vw;
+        line-height: 14vw;
+        padding-bottom: 0px;
+        margin-top: 0.2em;
+    }
+
+    .intro-content p{
+        padding-bottom: 2px;
+        font-size: 2vw;
+        line-height:3vw;
+    }
+
+    .intro-content button{
+        width: 28vw;
+        height:10vw;
+        padding-right:10px;
+        padding-left: 10px;
+        font-size: 0.1em;
+    }
+}
+
+/* code for desktop approach of the website. */
+@media screen and (min-width:760px){
+
+    /* specifying the maximum width of the container and making in responsive. */
+    .container{
+        width: 1200px;
+        margin: auto 0;
+    }
+    
+    /* styling the navigation bar */
+    .navbar{
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        margin-left: 50px;
+    }
+    
+    /* styling and spacing the logo in navigation bar */
+    .navlogo{
+        background-color: #222;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+    
+    /* specifying the size and spacing the logo */
+    .navlogo img{
+        width: 80px;
+        height: 80px;
+        margin-right: -100px;
+        
+    }
+    
+    /* placing the navigation links  */
+    .nav-list{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        margin-right: 70px;
+    }
+    
+    /* spacing every elements in the list  */
+    .pages{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    
+    /* spacing every elements from each other in the navigation section*/
+    .pages li{
+        padding: 0px 35px;
+    }
+    
+    /* styling the home link  */
+    #home{
+        background-color: #c78c06;
+        padding: 15px 30px 15px 30px;
+        color: #222;
+    }
+    
+    /* spacing the search section */
+    .search{
+        padding: 0px;
+    }
+    
+    /* specifying the size of the section  */
+    .section{
+        width: 100%;
+    }
+    
+    /* used position to place the elements in introduction section */
+    .intro{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    /* styling the introduction section */
+    .intro-content{
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 90px;
+        position: absolute;
+        top: 1%;
+        width:1000px;
+        height: 420px;
+    }
+    
+    /* styling the heading of introduction section */
+    .intro-content h1{
+        margin-top:30px;
+        margin-left: 10px;
+        font-size: 70px;
+        padding-bottom: 6px;
+        line-height: 100px;
+    }
+    
+    /* styling the paragraph in the introduction section */
+    .intro-content p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+        padding-bottom: 5px;
+    }
+    
+    /* specifying the size of the image area */
+    .intro-image{
+        width: 100%;
+    }
+    
+    /* specifying the size of the image*/
+    .intro-image img{
+        width:100%;
+        height: 500px;
+    }
+    
+    /* spacing the button in introduction section */
+    .intro-content button{
+        margin-left: 19px;
+        width: 200px;
+        height: 80px;
+        font-size: 18px;
+        padding:20px;
+    }
+    
+    /* code for styling and spacing of about-us section */
+    .about-us{
+        display: flex;
+        width: 100%;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px; 
+    }
+    
+    /* code for styling and placing the heading of about-us section.  */
+    .about-us-content h1{
+        margin-bottom: 15px;
+        margin-top: 14px;
+    }
+    
+    /* for placing the image in the position in about us */
+    .about-us-img{
+        margin: 0px 0px 0px 80px;
+    }
+    
+    /* specifying the size of the image in about us section */
+    .about-us img{
+        width: 500px;
+        height: 270px;
+    }
+    
+    /* styling and spacing about us paragraph */
+    .about-us-content p{
+        margin-right: 120px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    /* styling the heading of the services section */
+    .services h1{
+        font-weight:700;
+       
+    }
+    
+    /* using grid style for displaying of the services in the service section. */
+    .service-grid{
+        margin-left: 120px;
+        margin-top: 50px;
+        display: grid;
+        grid-gap: 10px ;
+        grid-template-columns:repeat(6,150px);
+        grid-template-rows:0px 580px 500px;
+         grid-template-areas:
+        "i1 i1 i1 i1 i1 i1"
+        "i2 i2 i2 i3 i3 i3"
+        "i4 i4 i5 i5 i6 i6";
+    }
+    
+    /* assingning the grid elements in given template areas individually to every target div */
+    .service-heading{
+        grid-area: i1;
+        margin-left: 120px;
+        margin-bottom: -50px;
+        margin-top: 20px;
+    }
+
+    .s1{
+        grid-area:i2;
+    }
+
+    .s2{
+        grid-area:i3;
+    }
+
+    .s3{
+        grid-area:i4;
+    }
+
+    .s4{
+        grid-area:i5;
+    }
+
+    .s5{
+        grid-area:i6;
+        margin-bottom: 10px
+    }
+    
+    /* spacing the heading in service 1 section */
+    .s1 h2{
+        margin: 15px 5px 4px 10px;
+        padding: 10px 5px 10px 5px;
+    }
+    
+    /* styling and spacing the button */
+    .s1-content button{
+        width: 450px;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    /* spacing the heading in service 2 section */
+    .s2 h2{
+        margin: 15px 5px 4px 10px;
+        padding: 10px 5px 10px 5px;
+    }
+    
+    /* styling and spacing the button */
+    .s2-content button{
+        width: 450px;
+        justify-content:center;
+        align-items: center;
+    }
+
+    /* spacing the heading in service 3 section */
+    .s3 h2{
+        margin: 15px 5px 4px 10px;
+        padding: 10px 5px 10px 5px;
+    }
+    
+    /* styling and spacing the button */
+    .s3-content button{
+        width: 289px;
+        justify-content:center;
+        align-items: center;
+    }
+
+    /* spacing the heading in service 4 section */
+    .s4 h2{
+        margin: 15px 5px 4px 10px;
+        padding: 10px 5px 10px 5px;
+    }
+    
+    /* spacing the paragraph in service 4 section */
+    .s4 p{
+        margin-top: 14px;
+    }
+    
+    /* styling and spacing the button */
+    .s4-content button{
+        width: 289px;
+        justify-content:center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+     /* spacing the heading in service 5 section */
+    .s5 h2{
+        margin: 15px 5px 4px 10px;
+        padding: 10px 5px 10px 5px;
+    }
+    
+    /* styling and spacing the button */
+    .s5-content button{
+        width: 289px;
+        justify-content:center;
+        align-items: center;
+        margin-top: -16px;
+    }
+    
+    /* spacing the paragraph in service 5 section */
+    .s5-content p{
+        font-weight: 500;
+        font-size: 15px;
+        margin-top: 12px;
+        margin-bottom: 23px;
+    }
+    
+    /* placing the elements in vision section using grid */
+    .vision{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* spacing the elements in grid */
+    .vision-grid{
+        margin: 20px 100px;
+    }
+    
+    /* spacing the heading in vision section */
+    .vision-grid h2{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    
+    /* spacing the paragraph in vision section */
+    .vision-grid p{
+        padding-bottom: 15px;
+    }
+    
+    /* using grid style for displaying of the services in the team section. */
+    .team{
+        margin-top: 110px;
+        margin-left: 20px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns:repeat(2,500px);
+        grid-template-rows:0px 400px 400px;
+        grid-template-areas:
+        "t1 t1"
+        "t2 t2"
+        "t3 t3";
+    }
+    
+    /* assingning the grid elements in given template areas individually to every target div */
+    .team-heading{
+        grid-area:t1;
+        margin-left: -5px;
+    }
+    
+    .owner{
+        grid-area:t2;
+        margin-top: 90px;
+    }
+
+    .deputy{
+        grid-area:t3;
+    }
+    
+    /* making sub-grids inside the grid elements display sub elements as per the mockup */
+    .owner{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,500px);
+        grid-template-rows: 400px;
+        grid-template-areas: 
+         "o1 o2";
+    }
+    
+    /* assingning elements in template area */
+    .owner-img{
+        grid-area: o1;
+        width: 100%
+
+    }
+
+    .owner-content{
+        grid-area: o2;
+    }
+    
+    /* making sub-grids inside the grid elements display sub elements as per the mockup */
+    .deputy{
+        display: grid;
+        grid-template-columns: repeat(2,500px);
+        grid-template-rows: 400px;
+        grid-template-areas: 
+         "d1 d2";
+    }
+    
+    /* assingning elements in template area */
+    .deputy-content{
+        grid-area: d1;
+    }
+
+    .deputy-img{
+        grid-area:d2;
+    }
+    
+    /* assingning the grid elements in given template areas individually to every target div */
+    .grid-3{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+        display: grid;
+        align-items:center;
+        justify-content: center;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,500px);
+        grid-template-areas:
+        "g1 g1"
+        "g2 g3"
+        "g4 g4";
+    }
+    
+    /* assingning elements in template area as per the grid and also styling them*/
+    .contact-heading{
+        grid-area: g1;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contact{
+        width: 450px;
+        height:400px;
+        grid-area: g2;
+    }
+    
+    /* styling and spacing the heading  */
+    .contact h2{
+        font-size: 25px;
+        margin-top: -30px;
+    }
+    
+    /* specifying the size of the input bar */
+    .contact input{
+        width: 550px;
+        height: 15px;
+        padding: 5px;
+        margin: 5px 0px 5px 0px;
+    }
+    
+    /* specifying the size of the message bar  */
+    #message{
+        height: 120px;
+        width: 450px;
+    }
+
+    .location{
+        grid-area: g3;
+    }
+    
+    /* spacing the heading of the location heading  */
+    .location h1{
+        margin-left: -20px;
+        margin-top: 30px;
+    }
+    
+    /* specifying the size of the location display frame */
+    .location iframe{
+        margin-left: -20px;
+        width: 470px;
+        height: 400px;
+    }
+
+    .hour-table{
+        grid-area: g4;
+    }
+    
+    /* spacing the content of the footer section */
+    .footer-content{
+        margin-left: 105px;
+    }
+    
+    /* specifying the size of the arrow in the button  */
+    .arrow img{
+        width: 10px;
+    }
+
+}
+    
+
+
+
+
